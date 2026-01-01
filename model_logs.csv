@@ -1,0 +1,4 @@
+Timestamp,prompt,token,ResponseTime
+2025-01-01 10:00:05,"Who is PM of India?",18,0.42
+2025-01-01 10:01:12,"Explain recursion",25,0.68
+2025-01-01 10:03:30,"Define lambda function",15,0.31
