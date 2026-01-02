@@ -1,5 +1,5 @@
 
-## My First chatbot model using GenAI API 
+## My First chatbot model using GenAI API       
 from google import genai
 import os 
 print("API KEY :",os.getenv('GEMINI_API_KEY'))
@@ -10,11 +10,11 @@ while True :
     prompt=input('Enter the prompt : ')
     History.append(f'user prompt :{prompt}')
 
-    if prompt =='exit':
+    if prompt.lower() =='exit':
         print('Good Bye')
         break
     response=client.models.generate_content(
-        model='gemini-3-flash-preview',
+        model='gemini-1.5-pro-preview-0409',
         contents=History
     )
     print(response.text)
