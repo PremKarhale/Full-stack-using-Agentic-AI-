@@ -2,7 +2,7 @@
 ## My First chatbot model using GenAI API       
 from google import genai
 import os 
-print("API KEY :",os.getenv('GEMINI_API_KEY'))
+# print("API KEY :",os.getenv('GEMINI_API_KEY'))
 client=genai.Client(api_key=os.getenv('GEMINI_API_KEY'))
 
 History=[]
